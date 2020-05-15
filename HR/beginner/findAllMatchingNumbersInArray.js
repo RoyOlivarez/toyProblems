@@ -10,3 +10,19 @@ Basic Set 2.2: Finding all matching numbers in an array
     Output
       [ 10, 20, 30 ]
 */
+
+function findEven(numbers) {
+  // create result variable
+  let result = [];
+
+  // iterate over numbers
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] === 2 % 0) {
+      result.push(numbers[i]);
+    }
+  }
+  // return result
+  return result;
+}
+
+// Using Recursion
