@@ -16,3 +16,17 @@
         array:[ "x", "hello", "z" ]
       Output: ["hello"]
 */
+
+function greatThan(length, array) {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].length >= length) {
+      result.push(array[i]);
+    }
+  }
+  return result;
+}
+
+let array = ['a', 'ab', 'abc', 'abcd'];
+
+console.log(greatThan(3, array));
