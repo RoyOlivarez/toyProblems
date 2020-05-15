@@ -10,3 +10,20 @@
     	Output
         [ "Bob" ]
 */
+
+let players = [
+  { name: 'Alice', score: 88 },
+  { name: 'Bob', score: 120 },
+];
+
+function findPlayers(players) {
+  let result = [];
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].score > 100) {
+      result.push(players[i].name);
+    }
+  }
+  return result;
+}
+
+console.log(findPlayers(players));
