@@ -1,0 +1,3 @@
+[submodule "recursion-prompts"]
+	path = recursion-prompts
+	url = https://github.com/RoyOlivarez/recursion-prompts.git
