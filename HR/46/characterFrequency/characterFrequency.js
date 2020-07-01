@@ -39,3 +39,5 @@
 // Output:[["a", 3], ["b", 2], ["c", 1]]
 // Time complexity = O(n)
 // Edge case
+
+function characterFrequency() {}
